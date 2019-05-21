@@ -17,8 +17,9 @@
     <div class="content">
 
         <form id="add-cafe-form">
-            <input type="text" name="name" placeholder="Enter match number here:">
-            <input type="text" name="city" placeholder="Enter Team You Are Scouting Here:">
+            <input type="text" name="matchNum" placeholder="Enter match number here:">
+            <input type="text" name="scoutedTeam" placeholder="Enter Team You Are Scouting Here:">
+            
             <label class="container">One
                 <input type="checkbox" checked="checked">
                 <span class="checkmark"></span>
@@ -36,8 +37,9 @@
                 <span class="checkmark"></span>
             </label>
 
-            <input type="text" name="city" placeholder="Cafe city">
-            <select id="field" name="field" class="select-field-2 w-select">
+            <input type="text" name="notes" placeholder="Enter notes here:">
+
+            <select id="field" name="matchType" class="select-field-2 w-select">
                 <option value="N/A">Select Match Type...</option>
                 <option value="Q">Qualification</option>
                 <option value="QF">Quarterfinal</option>
@@ -46,7 +48,7 @@
                 <option value="R">Replay</option>
             </select>
 
-            <button>Add Cafe</button>
+            <button>Submit</button>
         </form>
 
         <ul id="cafe-list"></ul>
